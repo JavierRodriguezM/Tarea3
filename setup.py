@@ -16,10 +16,10 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     license='MIT'
     install_requires = [
-        'argparse'
-        'opencv'
-        'playsound'
-        'tabulate'
+        'argparse',
+        'opencv',
+        'playsound',
+        'tabulate',
     ],
     scripts=['imagen.py', 'audio.py', 'texto.py'],
     classifiers=[
