@@ -15,7 +15,7 @@ setuptools.setup(
     url="https://github.com/JavierRodriguezM/Tarea3.git",
     packages=setuptools.find_packages(),
     license='MIT'
-    install_requires=['argparse', 'opencv', 'playsound', 'tabulate'],
+    install_requires=['argparse', 'cv2', 'playsound', 'tabulate'],
     scripts=['imagen.py', 'audio.py', 'texto.py'],
     classifiers=[
         "Programming Language :: Python :: 3",
