@@ -15,7 +15,7 @@ setuptools.setup(
     url="https://github.com/JavierRodriguezM/Tarea3.git",
     packages=setuptools.find_packages(),
     install_requires = ['argparse'],
-    scripts=["imagen.py"],
+    scripts=['imagen.py'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
