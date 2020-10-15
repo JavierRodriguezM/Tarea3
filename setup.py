@@ -4,10 +4,11 @@ setup(
     name='Tarea3',
     version='0.0.1',
     description='Paquete de metodos para la tarea3',
-    url='x',
+    url='https://github.com/JavierRodriguezM/Tarea3',
     author='Javier Rodriguez',
     author_email='javirodriguez97@gmail.com',
     license='unlicense',
     packages=['Tarea3'],
+    scripts=['imagen', 'texto', 'audio']
     zip_safe=False
 )
