@@ -9,6 +9,6 @@ setup(
     author_email='javirodriguez97@gmail.com',
     license='unlicense',
     packages=['Tarea3'],
-    scripts=['imagen', 'texto', 'audio'],
+    #scripts=['imagen', 'texto', 'audio'],
     zip_safe=False
 )
