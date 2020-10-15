@@ -1,3 +1,4 @@
+#! python
 # Librerias para Método img
 import cv2
 # Otras librerias
