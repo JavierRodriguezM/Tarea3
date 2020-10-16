@@ -10,6 +10,6 @@ setup(
     license='unlicense',
     #package_dir={'':'Tarea3'},
     packages=['Tarea3'],
-    scripts=['imagen'],
+    #scripts=['imagen'],
     zip_safe=False
 )
