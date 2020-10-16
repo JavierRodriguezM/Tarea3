@@ -9,7 +9,7 @@ setup(
     author_email='javirodriguez97@gmail.com',
     license='unlicense',
     package_dir={'':'Tarea3'}
-    packages=['Tarea3'],
+    packages=find_packages(),
     scripts=['imagen'],
     zip_safe=False
 )
