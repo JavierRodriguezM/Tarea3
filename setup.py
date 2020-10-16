@@ -19,7 +19,7 @@ setup(
         ],
     },
     install_requires=[
-        #'opencv',
+        'opencv-python',
         'tabulate',
         'playsound',
         'argparse',
