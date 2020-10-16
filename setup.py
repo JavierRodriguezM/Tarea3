@@ -10,6 +10,6 @@ setup(
     license='unlicense',
     #package_dir={'':'Tarea3'},
     packages=['Tarea3'],
-    scripts=['Tarea3/imagen.py'],
+    scripts=['Tarea3/imagen.py', 'Tarea3/audio.py','Tarea3/texto.py'],
     zip_safe=False
 )
