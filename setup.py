@@ -12,7 +12,11 @@ setup(
     packages=['Tarea3'],
     #scripts=['Tarea3/imagen.py', 'Tarea3/audio.py','Tarea3/texto.py'],
     entry_points = {
-        'console_scripts': ['imagen = Tarea3.imagen:main'],
+        'console_scripts': [
+            'imagen = Tarea3.imagen:main',
+            'audio = Tarea3.audio:main',
+            'texto = Tarea3.texto:main',
+        ],
         #'console_scripts': ['audio = Tarea3.audio:main'],
         #'console_scripts': ['texto = Tarea3.texto:main'],
     },
