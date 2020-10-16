@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from playsound import playsound
 import argparse
 import time
