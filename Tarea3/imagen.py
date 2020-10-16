@@ -1,4 +1,4 @@
-#! python
+#!/usr/bin/python
 # Librerias para Método img
 import cv2
 # Otras librerias
