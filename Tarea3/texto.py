@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from tabulate import tabulate
 import time
 import argparse
