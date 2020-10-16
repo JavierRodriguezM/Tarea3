@@ -34,8 +34,11 @@ def sound(audio, n):
 # Tiempo final del método.        
 tiempo_final = time.perf_counter() - tiempo_inicio
 
-# Ejecución del método en la terminal
-if __name__ == "__main__":
+def main():
     sound(args.Audio, args.Reproducciones)
     if args.time:
         print("Tiempo ejecución del método=", tiempo_final)
+
+# Ejecución del método en la terminal
+if __name__ == "__main__":
+    main()
