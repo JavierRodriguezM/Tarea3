@@ -10,6 +10,9 @@ setup(
     license='unlicense',
     #package_dir={'':'Tarea3'},
     packages=['Tarea3'],
-    scripts=['Tarea3/imagen.py', 'Tarea3/audio.py','Tarea3/texto.py'],
+    #scripts=['Tarea3/imagen.py', 'Tarea3/audio.py','Tarea3/texto.py'],
+    entry_points = {
+        'console_scripts': ['imagen = Tarea3.imagen:'],
+    }
     zip_safe=False
 )
