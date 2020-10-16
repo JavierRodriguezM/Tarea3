@@ -17,8 +17,12 @@ setup(
             'audio = Tarea3.audio:main',
             'texto = Tarea3.texto:main',
         ],
-        #'console_scripts': ['audio = Tarea3.audio:main'],
-        #'console_scripts': ['texto = Tarea3.texto:main'],
     },
+    install_requires=[
+        'opencv',
+        'tabulate',
+        'playsound',
+        'argparse',
+    ],
     zip_safe=False
 )
